@@ -30,8 +30,6 @@ public class Program {
 
         CarRental carRental1 = new CarRental(start, end, new Vehicle(carModel));
 
-//        BrazilTaxService taxService = new BrazilTaxService();
-//        System.out.println(taxService.tax(390.0));
         System.out.print("Price per hour: ");
         double pricePerHour = sc.nextDouble();
         System.out.print("Price per day: ");
